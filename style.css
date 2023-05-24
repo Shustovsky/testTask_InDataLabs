@@ -53,13 +53,28 @@ body {
 }
 
 .item {
+    position: relative;
     padding: 20px;
-    width: 480px;
+    max-width: 480px;
     height: 88px;
     background: #FFFFFF;
     box-shadow: 0 2px 4px rgba(81, 169, 225, 0.04), 0 4px 5px rgba(81, 169, 225, 0.02), 0 1px 10px rgba(81, 169, 225, 0.1);
     border-radius: 8px;
     cursor: pointer;
+}
+
+.active {
+    box-shadow: 0 14px 20px rgba(81, 169, 225, 0.04), 0 6px 22px rgba(81, 169, 225, 0.02), 0 7px 12px rgba(81, 169, 225, 0.1);
+}
+
+.item-label {
+    position: absolute;
+    width: 7px;
+    height: 88px;
+    left: 0;
+    top: 0;
+    border-radius: 8px 0 0 8px;
+    /*background: #77BCE8;*/
 }
 
 .item_header {
@@ -78,6 +93,8 @@ body {
 
 .twister {
     position: relative;
+    background: linear-gradient(321.42deg, #E7F5FF -34.62%, #FEFEFE 99.7%);
+    border-radius: 8px;
 }
 
 .blue {
@@ -103,3 +120,47 @@ body {
     left: 22.3%;
     top: 10.4%;
 }
+
+.decoration {
+    position: absolute;
+    border-radius: 100%;
+    background: radial-gradient(50.36% 50.36% at 71.53% 29.56%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #F7EFFF 0%, #77BCE8 100%);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+
+}
+
+.decoration-one {
+    width: 19px;
+    height: 19px;
+    left: 50px;
+    top: 154px;
+    opacity: 0.5;
+    filter: blur(1.35714px);
+}
+
+.decoration-two {
+    width: 28px;
+    height: 28px;
+    left: 131px;
+    top: 43px;
+    opacity: 0.7;
+    filter: blur(2px);
+}
+
+.decoration-three {
+    width: 28px;
+    height: 28px;
+    left: 433px;
+    top: 464px;
+    opacity: 0.7;
+    filter: blur(2px);
+}
+
+.decoration-four {
+    width: 52px;
+    height: 52px;
+    left: 500px;
+    top: 490px;
+    filter: blur(0.5px);
+}
+
