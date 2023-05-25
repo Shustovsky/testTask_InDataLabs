@@ -123,19 +123,20 @@ body {
 .green {
     position: absolute;
     left: 17%;
-    top: 33.5%;
+    top: 33.2%;
 }
 
 .orange {
     position: absolute;
     left: 25.3%;
-    top: 22.8%;
+    top: 22.7%;
+    transform: rotate(-1deg);
 }
 
 .pink {
     position: absolute;
     left: 22%;
-    top: 10.5%;
+    top: 10.1%;
 }
 
 .decoration {
