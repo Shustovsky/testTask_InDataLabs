@@ -1,4 +1,4 @@
-const container = document.querySelector('.container');
+const container = document.querySelector('.item_container');
 const twisterImages = document.querySelectorAll('.color');
 const colors = ['#77BCE8', '#54B465', '#FF9C00', '#8A6ED8'];
 
